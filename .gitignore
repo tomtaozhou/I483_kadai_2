@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+mpy-env/
+venv/
+env/
+.venv/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# MicroPython artifacts
+*.bin
+*.uf2
+*.hex
+*.elf
+*.mpy
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+*.tmp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project-specific
+flash_check.bin
+*.local
+
+# Secrets (extra safety — should never be committed)
+secrets.py
+config_local.py
+.env
+.env.local
