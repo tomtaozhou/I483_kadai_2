@@ -7,7 +7,7 @@ STUDENT = "s2510085"
 KAFKA_BROKER = "150.65.230.59:9092"
 
 TOPIC_BH_IN   = "i483-sensors-{}-BH1750-illumination".format(STUDENT)
-TOPIC_BH_OUT  = "i483-sensors-{}-BH1750-avg-illumination".format(STUDENT)
+TOPIC_BH_OUT  = "i483-sensors-{}-BH1750_avg-illumination".format(STUDENT)
 TOPIC_CO2_IN  = "i483-sensors-{}-SCD41-co2".format(STUDENT)
 TOPIC_CO2_OUT = "i483-actuators-{}-co2_threshold-crossed".format(STUDENT)
 
