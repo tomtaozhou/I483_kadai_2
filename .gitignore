@@ -48,3 +48,6 @@ secrets.py
 config_local.py
 .env
 .env.local
+# Python venv anywhere
+*-venv/
+*venv/
