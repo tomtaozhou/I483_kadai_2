@@ -16,7 +16,7 @@ MQTT_BROKER = "150.65.230.59"
 MQTT_PORT   = 1883
 MQTT_CLIENT_ID = STUDENT + "-pico"
 
-CO2_ALERT_TOPIC = "i483/actuators/{}/co2_threshold_crossed".format(STUDENT).encode()
+CO2_ALERT_TOPIC = "i483/actuators/{}/co2_threshold/crossed".format(STUDENT).encode()
 
 INTERVAL_S = 10
 
